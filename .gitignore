@@ -1,0 +1,62 @@
+# Python virtual environment
+.venv/
+.venv-yamnet/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter and temporary files
+.ipynb_checkpoints/
+*.tmp
+*.temp
+
+# Environment files and secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+config_local.py
+
+# TensorFlow and model caches
+tfhub_modules/
+tfhub_cache/
+tensorflow_hub/
+.cache/
+AppData/
+
+# Local datasets and recorded audio
+/external_tests/
+/isl_major_dataset/
+/test/
+/train/
+/validation/
+*.wav
+/*.csv
+/*.npz
+/*.joblib
+hand_landmarker.task
+/final hackathon handbook.pdf
+/0.57
+
+# Logs
+*.log
+logs/
+
+# Local machine files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary outputs
+outputs/
+results/
+screenshots_temp/

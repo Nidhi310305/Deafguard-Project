@@ -1,0 +1,12 @@
+numpy
+scipy
+pandas
+scikit-learn
+joblib
+opencv-python
+mediapipe
+tensorflow
+tensorflow-hub
+sounddevice
+soundfile
+streamlit
